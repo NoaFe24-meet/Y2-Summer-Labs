@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" href="../static/style4.css">
+  <title>Sign Up</title>
+</head>
+<body>
+
+
+<form action="{{url_for('sign_up')}}" method="POST" style="border:1px solid #ccc">
+    <h1>Sign Up</h1>
+    <p>Fill in this form to create an account:</p>
+    <hr>
+
+    <label for="email"><b>Email</b></label>
+    <input type="text" placeholder="Enter Email" name="email" required>
+
+    <label for="password"><b>Password</b></label>
+    <input type="text" placeholder="Enter Password" name="p" required>
+
+    <label for="username"><b>username</b></label>
+    <input type="text" placeholder="Enter username" name="username" required>
+
+    <label for="ballet"><b>Ballet</b></label>
+    <input type="radio" name="ballet">
+
+        <label for="modern"><b>Modern dance</b></label>
+    <input type="radio" name="modern">
+
+        <label for="jazz"><b>Jazz</b></label>
+    <input type="radio" name="jazz">
+
+
+<br><br>
+    <input type="submit" value="Sign up">
+    
+  
+</form>
+
+<a href="/"><button>Home</button></a>
+
+</body>
+
+</html>

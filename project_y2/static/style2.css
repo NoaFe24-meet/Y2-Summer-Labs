@@ -1,0 +1,38 @@
+body {
+            font-family: Josefin Slab;
+            margin: 0;
+            padding: 0;
+            background-color: #ffe6ea; /* Light pink background */
+            text-align: center;
+        }
+        h1 {
+            color: #ff4384; /* Pinkish-red */
+            margin-top: 100px;
+            font-size: 2.5em;
+        }
+        h3 {
+            color: #ff77a9; /* Light pink */
+            max-width: 600px;
+            margin: 20px auto;
+            font-size: 1.8em;
+            line-height: 2;
+        }
+        button {
+            background-color: #ff77a9; /* Light pink */
+            color: white;
+            border: none;
+            padding: 24px 48px;
+            text-transform: uppercase;
+            font-weight: bold;
+            cursor: pointer;
+            margin: 10px;
+            transition: background-color 0.3s ease;
+            border-radius: 30px; /* Rounded corners */
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+        }
+        button:hover {
+            background-color: #ff4384; /* Darker pinkish-red on hover */
+        }
+        a {
+            text-decoration: none;
+        }

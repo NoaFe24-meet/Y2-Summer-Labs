@@ -1,0 +1,75 @@
+        /* Global styles */
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #fce4ec; /* Light pink background */
+            color: #4a148c; /* Purple text */
+            margin: 0;
+            padding: 0;
+        }
+
+        .topnav {
+            background-color: #f48fb1; /* Pink */
+            overflow: hidden;
+            text-align: center;
+            padding: 10px 0;
+        }
+
+        .topnav a {
+            display: inline-block;
+            color: #fff; /* White text */
+            text-decoration: none;
+            padding: 10px 20px;
+            font-size: 18px;
+        }
+
+        .topnav a:hover {
+            background-color: #ffbbdc; /* Light pink hover */
+        }
+        .recipes-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            padding: 20px;
+        }
+
+        .recipe {
+            width: calc(50% - 20px);
+            background-color: #fff;
+            padding: 20px;
+            margin: 10px;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+            line-height: 1.6;
+            color: #4a148c; /* Purple text */
+        }
+
+        .recipe h2 {
+            color: #d81b60; /* Dark pink */
+            border-bottom: 2px solid #d81b60; /* Dark pink underline */
+            padding-bottom: 5px;
+            margin-bottom: 15px;
+        }
+
+        .recipe p {
+            margin-bottom: 15px;
+        }
+
+        .ingredients {
+            font-weight: bold;
+        }
+
+        .method {
+            margin-top: 20px;
+        }
+
+        .method ol {
+            list-style-type: decimal;
+            padding-left: 20px;
+        }
+
+        /* Responsive design */
+        @media (max-width: 768px) {
+            .recipe {
+                width: 100%;
+            }
+        }

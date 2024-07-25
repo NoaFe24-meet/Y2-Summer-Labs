@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="../static/profile.css">
+  <script>
+      let slideIndex = 0;
+  showSlides();
+
+  function showSlides() {
+    let i;
+    let slides = document.getElementsByClassName("mySlides");
+    for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";
+    }
+    slideIndex++;
+    if (slideIndex > slides.length) {slideIndex = 1}
+    slides[slideIndex-1].style.display = "block";
+    setTimeout(showSlides, 2000); // Change image every 2 seconds
+  }
+  </script>
+
+	<title>Dance styles</title>
+</head>
+<body>
+<div class="topnav">
+    <a class="active" href="/workouts">Workouts</a>
+    <a href="/meals">Meals</a>
+    <a href="#dance">Dance styles</a>
+    <a href="/profile">Profile</a>
+    <a href="/">Home</a>
+    <a href="/signout">Signout</a>
+
+</div>
+
+
+
+<h2>Automatic Slideshow</h2>
+<p>Change image every 2 seconds:</p>
+
+<div class="slideshow-container">
+
+<div class="mySlides fade">
+  <div class="numbertext">1 / 3</div>
+  <img src="https://pointemagazine.com/wp-content/uploads/2022/11/NUT2021DRE_ET30144_CE_Web_R1-scaled.jpg" style="width:100%">
+  <div class="text">Caption Text</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">2 / 3</div>
+  <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSA3aSPqQVUYhSDIWXmK5b0OV84XhZtG-2G8g&s" style="width:100%">
+  <div class="text">Caption Two</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">3 / 3</div>
+  <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSA3aSPqQVUYhSDIWXmK5b0OV84XhZtG-2G8g&s" style="width:100%">
+  <div class="text">Caption Three</div>
+</div>
+
+</div>
+<br>
+
+<div style="text-align:center">
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+</div>
+
+
+</body>
+</html>

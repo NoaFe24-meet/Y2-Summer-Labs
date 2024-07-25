@@ -1,0 +1,97 @@
+/* Reset default browser styling */
+body, h1, p, input, button {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Body styles */
+body {
+    background-color: #fce4ec;
+    text-align: center;
+    margin: 0;
+    padding: 20px;
+}
+
+/* Form container */
+form {
+    max-width: 400px;
+    margin: 20px auto;
+    padding: 30px;
+    border: 1px solid #ff80ab; /* Light pink border */
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+/* Form header */
+form h1 {
+    color: #ff5278; /* Dark pink */
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+/* Form paragraph */
+form p {
+    color: #ff80ab; /* Light pink */
+    margin-bottom: 20px;
+    font-size: 16px;
+}
+
+/* Form labels */
+form label {
+    display: block;
+    text-align: left;
+    margin-bottom: 8px;
+    color: #ff5278; /* Dark pink */
+    font-size: 14px;
+    text-transform: uppercase;
+}
+
+/* Form inputs */
+form input[type="text"], form input[type="password"] {
+    width: calc(100% - 20px);
+    padding: 12px;
+    margin-bottom: 20px;
+    border: 1px solid #ff80ab; /* Light pink border */
+    border-radius: 6px;
+    box-sizing: border-box;
+    font-size: 14px;
+    outline: none; /* Remove outline */
+}
+
+/* Submit button */
+form input[type="submit"] {
+    background-color: #ff5278; /* Dark pink */
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 16px;
+    text-transform: uppercase;
+    transition: background-color 0.3s ease;
+}
+
+form input[type="submit"]:hover {
+    background-color: #ff3366; /* Darker pink on hover */
+}
+
+/* Home button */
+a button {
+    background-color: #ff80ab; /* Light pink */
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 16px;
+    text-decoration: none; /* Remove underline from link */
+    transition: background-color 0.3s ease;
+    margin-top: 20px;
+    display: inline-block; /* Ensure button is inline */
+}
+
+a button:hover {
+    background-color: #ff5278; /* Darker pink on hover */
+}
